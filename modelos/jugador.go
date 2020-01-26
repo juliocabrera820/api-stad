@@ -1,7 +1,6 @@
 package modelos
 
 import (
-	"github.com/julio-cabrera/api-stad/bd"
 	"github.com/julio-cabrera/api-stad/forma"
 	"gopkg.in/mgo.v2/bson"
 )
@@ -16,10 +15,6 @@ type Jugador struct {
 }
 
 type ModeloJugador struct{}
-
-var servidor = "127.0.0.1"
-
-var bdConectada = bd.NuevaConexion(servidor)
 
 func (m *ModeloJugador) Agregar(data forma.CrearJugador) error {
 	coleccion := bdConectada.Usar("stad", "jugadores")
