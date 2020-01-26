@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 	"github.com/gin-gonic/gin"
-	"github.com/juliocabrera/api-stad/controladores"
+	"github.com/julio-cabrera/api-stad/controladores"
 )
 
 func main() {

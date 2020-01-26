@@ -1,8 +1,8 @@
 package modelos
 
 import (
-	"github.com/juliocabrera/api-stad/bd"
-	"github.com/juliocabrera/api-stad/forma"
+	"github.com/julio-cabrera/api-stad/bd"
+	"github.com/julio-cabrera/api-stad/forma"
 	"gopkg.in/mgo.v2/bson"
 )
 

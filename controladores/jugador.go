@@ -2,8 +2,8 @@ package controladores
 
 import (
 	"fmt"
-	"github.com/juliocabrera/api-stad/forma"
-	"github.com/juliocabrera/api-stad/modelos"
+	"github.com/julio-cabrera/api-stad/forma"
+	"github.com/julio-cabrera/api-stad/modelos"
 	"github.com/gin-gonic/gin"
 )
 
